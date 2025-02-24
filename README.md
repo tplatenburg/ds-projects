@@ -18,6 +18,14 @@ https://liveproject.manning.com/project/253/103/prophet-model-incorporated-with-
 
 LiveProject by Manning Publications, Michael Grogan
 
+Note: I had to build httpstan from source:
+1. Download httpstan from: https://github.com/stan-dev/httpstan/tags
+2. Unzip
+3. Go to unzipped folder and run `make`
+4. `uv build` 
+5. `uv pip install ./dist/httpstan-4.13.0-cp311-cp311-macosx_15_0_arm64.whl`
+6. `uv pip install pystan`
+
 ### Bayesian Dynamic Linear Modeling
 Forecasting with Bayesian Modeling [3/5]
 
